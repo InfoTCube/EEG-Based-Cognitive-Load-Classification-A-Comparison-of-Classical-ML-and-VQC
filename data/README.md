@@ -22,10 +22,10 @@ data/raw/
 ## Expected Structure
 
 data/raw/
-├── subject_01_1.edf   # resting state
-├── subject_01_2.edf   # mental arithmetic
-├── subject_02_1.edf
-├── subject_02_2.edf
+├── Subject00_1.edf   # resting state
+├── Subject00_2.edf   # mental arithmetic
+├── Subject01_1.edf
+├── Subject01_2.edf
 ├── ...
 ├── subject-info.csv
 
@@ -36,7 +36,7 @@ Each subject has two recordings:
 - *_2.edf → mental arithmetic task
 
 Each recording:
-- duration: 60 seconds
+- duration: 60 seconds (mental math), 180 seconds (rest)
 - channels: 23 (10–20 system)
 - format: EDF
 
