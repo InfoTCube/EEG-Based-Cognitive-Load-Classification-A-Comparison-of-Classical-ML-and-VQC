@@ -21,7 +21,7 @@ def extract_features(X, sfreq):
     frontal_left = [0, 2, 4]
     frontal_right = [1, 3, 5]
     central = [8, 9, 17]
-    
+
     for epoch_idx in range(n_epochs):
         frontal_data = X[epoch_idx, frontal_left + frontal_right].mean(axis=0)
         central_data = X[epoch_idx, central].mean(axis=0)
